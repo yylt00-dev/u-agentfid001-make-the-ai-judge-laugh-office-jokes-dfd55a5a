@@ -4,7 +4,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const JOKE =
-  "I hit reply-all to apologise for hitting reply-all, and now the whole company is trapped in my apology loop.";
+  "I replied-all to apologise for replying-all, and now the whole company is trapped in my apology loop.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", JOKE + "\n", "utf8");
